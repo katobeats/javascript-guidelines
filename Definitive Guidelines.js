@@ -83,23 +83,27 @@ square(plus1(y))                       // => 16: invoke two functions in one exp
 // When functions are assigned to the properties of an object, they are called METHODS
 // All javascript objects have methods
 
-var a = [];
-a.push(1, 2, 3);                       // The push() method adds elements to an array
-a.reverse();                           // The reverse() method reverses the order of elements
+var x = [];
+x.push(1, 2, 3);                       // The push() method adds elements to an array
+x.reverse();                           // The reverse() method reverses the order of elements
 
-var s = "hello, world"
-s.length                               // => 12: length of a string
-s.charAt(0)                            // => "h": the first character
-s.charAt(s.length - 1)                 // => "d": the last character
-s.substring(1, 4)                      // => "ell": the second, third and fourth characters
-s.slice(1, 4)                          // => "ell": the second, third and fourth characters aswell
-s.slice(-3)                            // => "rld": the last three characters
-s.indexOf("1")                         // => 2: position of first letter "l"
-s.lastIndexOf("1")                     // => 10: position of last letter "l"
-s.indexOf("1", 3)                      // => 3: position of first "l" at or after 3
-s.split(", ")                          // => ["hello", "world"] split into substrings
-s.replace("h", "H")                    // => "Hello, World": replaces all instances
-s.toUpperCase()                        // => "HELLO, WORLD"
+var y = "hello, world"
+y.length                               // => 12: length of a string
+y.charAt(0)                            // => "h": the first character
+y.charAt(y.length - 1)                 // => "d": the last character
+y.substring(1, 4)                      // => "ell": the second, third and fourth characters
+y.slice(1, 4)                          // => "ell": the second, third and fourth characters aswell
+y.slice(-3)                            // => "rld": the last three characters
+y.indexOf("1")                         // => 2: position of first letter "l"
+y.lastIndexOf("1")                     // => 10: position of last letter "l"
+y.indexOf("1", 3)                      // => 3: position of first "l" at or after 3
+y.split(", ")                          // => ["hello", "world"] split into substrings
+y.replace("h", "H")                    // => "Hello, World": replaces all instances
+y.toUpperCase()                        // => "HELLO, WORLD"
+
+
+document.getElementById("foo").innerHTML = (Hello, world); // places 'Hello, world' in HTML with ID "foo"
+
 
 // We can define our own methods using the 'this' keyword which 
 // refers to the object on which the method is defined
