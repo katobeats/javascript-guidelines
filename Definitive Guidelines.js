@@ -101,8 +101,23 @@ y.split(", ")                          // => ["hello", "world"] split into subst
 y.replace("h", "H")                    // => "Hello, World": replaces all instances
 y.toUpperCase()                        // => "HELLO, WORLD"
 
-document.getElementById("foo").innerHTML = (Hello, world); // places 'Hello, world' in HTML with ID "foo"
 
+// DOM Object METHODS
+getElementById()                       // returns the element that has an ID attribute with the a value
+getElementsByTagName()                 // returns a node list (collection/array of nodes) containing all elements with a specified tag name
+getElementsByClassName()               // returns a node list containing all elements with a specified class
+   
+appendChild                            // adds a new child node to a specified node
+removeChild()                          // removes a child node
+replaceChild()                         // replaces a child node
+insertBefore()                         // inserts a new child node before a specified child node
+   
+createAttribute()                      // creates an Attribute node
+createElement()                        // creates an Element node
+createTextNode()                       // creates a Text node
+   
+getAttribute()                         // returns the specified attribute value
+setAttribute()                         // sets or changes the specified attribute, to the specified value
 
 // We can define our own methods using the 'this' keyword which 
 // refers to the object on which the method is defined
