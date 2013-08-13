@@ -49,7 +49,7 @@ var data = {                            // an object with two properties
 4 * 2                                   // mutiplication
 4 / 2                                   // division
 points[1].x - points[0].x               // => 1 
-"4" + "2"                               // => "32"
+"4" + "2"                               // => "42"
 
 // EQUALITY and RELATIONAL OPERATORS
 var x = 2,                              // value assignments
