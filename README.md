@@ -1,4 +1,4 @@
-JS-Definitive-Guidline
-======================
+Javascript Guidelines
+=====================
 
 Javascript guidelines and general notes. 
