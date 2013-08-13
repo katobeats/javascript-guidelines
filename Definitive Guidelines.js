@@ -101,7 +101,6 @@ y.split(", ")                          // => ["hello", "world"] split into subst
 y.replace("h", "H")                    // => "Hello, World": replaces all instances
 y.toUpperCase()                        // => "HELLO, WORLD"
 
-
 document.getElementById("foo").innerHTML = (Hello, world); // places 'Hello, world' in HTML with ID "foo"
 
 
